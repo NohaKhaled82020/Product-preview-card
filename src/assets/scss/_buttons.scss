@@ -1,0 +1,30 @@
+.btn {
+  font-weight: 500;
+  border-radius: 10px;
+  padding: 0px 30px;
+  height: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+
+  &:focus {
+    outline: 0;
+    box-shadow: none !important;
+  }
+  &.btn-primary {
+    background-color: $primaryColor;
+    border-color: $primaryColor;
+    color: white;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: darken(
+        $color: hsl(158, 36%, 37%),
+        $amount: 10
+      ) !important;
+      border-color: darken($color: hsl(158, 36%, 37%), $amount: 10) !important;
+    }
+  }
+}

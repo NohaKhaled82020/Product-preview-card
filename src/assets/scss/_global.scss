@@ -1,0 +1,31 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: $creamColor;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+a,
+input,
+button,
+select {
+  transition: 0.3s;
+}
+.container {
+  width: 100% !important;
+  max-width: 1200px !important;
+}

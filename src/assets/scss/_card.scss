@@ -20,8 +20,7 @@
   }
 }
 .card__content {
-  margin: 30px;
-  margin-bottom: 20px;
+  margin: 25px;
   p:first-of-type {
     letter-spacing: 5px;
   }
@@ -49,7 +48,9 @@
     color: $primaryColor;
     margin-inline-end: 20px;
   }
-  p {
+  h3 {
+    font-size: 16px;
+    font-weight: lighter;
     text-decoration: line-through;
     color: $grayishColor;
   }

@@ -1,7 +1,7 @@
 .card {
   display: flex;
   flex-direction: row;
-  max-width: 650px;
+  max-width: 500px;
   border-radius: 10px;
   margin: 20px 0;
   @include maxBreakpoint($mobileLarge) {
@@ -10,8 +10,8 @@
 }
 .card__img {
   img {
+    max-width: 230px;
     height: 100%;
-    width: 100%;
     object-fit: cover;
     border-radius: 10px;
   }
@@ -25,8 +25,9 @@
     letter-spacing: 5px;
   }
   h1 {
+    font-size: 30px;
     color: $darkColor;
-    margin: 15px 0;
+    margin: 10px 0;
     font-family: "Fraunces", sans-serif;
   }
   .btn {

@@ -2,11 +2,11 @@
 
 My challenge is to build out this product preview card component and get it looking as close to the design as possible.
 
-<div align="center">
-   <img src="https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa" align="center" width="300px" height="300px">
-</div>
+ Challenge Link :
 
-## Live Demo
+https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa
+
+## 💫 Live Demo
 
 https://product-preview-card-01.netlify.app/
 

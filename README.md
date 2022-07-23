@@ -3,8 +3,7 @@
 My challenge is to build out this product preview card component and get it looking as close to the design as possible.
 
 <div align="center">
-   <img src="../Product-preview-card/src/assets/images/screen1.PNG" align="center" width="300px" height="300px">
-   <img src="../Product-preview-card/src/assets/images/screen2.PNG" align="center" width="300px" height="300px">
+   <img src="https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa" align="center" width="300px" height="300px">
 </div>
 
 ## Live Demo

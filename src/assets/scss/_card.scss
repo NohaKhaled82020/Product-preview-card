@@ -10,10 +10,15 @@
 }
 .card__img {
   img {
-    max-width: 230px;
     height: 100%;
+    max-width: 230px;
     object-fit: cover;
     border-radius: 10px;
+    @include maxBreakpoint($mobileLarge) {
+      object-fit: fill;
+      width: 100%;
+      max-width: 100%;
+    }
   }
   @include maxBreakpoint($mobileLarge) {
     height: 250px;
@@ -40,7 +45,7 @@
     }
   }
 }
-.card__peice {
+.card__price {
   display: flex;
   align-items: center;
   margin: 20px 0;

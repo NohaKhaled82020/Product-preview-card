@@ -3,7 +3,9 @@
   flex-direction: row;
   max-width: 500px;
   border-radius: 10px;
+  border: 0;
   margin: 20px 0;
+  overflow-x: hidden;
   @include maxBreakpoint($mobileLarge) {
     flex-direction: column;
   }
@@ -11,17 +13,19 @@
 .card__img {
   img {
     height: 100%;
-    max-width: 230px;
     object-fit: cover;
-    border-radius: 10px;
-    @include maxBreakpoint($mobileLarge) {
-      object-fit: fill;
-      width: 100%;
-      max-width: 100%;
+    &:first-of-type {
+      max-width: 250px;
+      @include maxBreakpoint($mobileLarge) {
+        display: none;
+      }
     }
-  }
-  @include maxBreakpoint($mobileLarge) {
-    height: 250px;
+    &:last-of-type {
+      max-width: 100%;
+      @include minBreakpoint($mobileLarge) {
+        display: none;
+      }
+    }
   }
 }
 .card__content {
